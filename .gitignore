@@ -1,0 +1,4 @@
+#ignore zipped files sent by email
+
+w*/harsh_kumar_*
+w*/harsh_kumar_*.zip
