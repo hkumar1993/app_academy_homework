@@ -12,11 +12,13 @@ class Map
     else
       @map.each do |pair|
         if pair.first == key
-          pair.last = value
+          pair.pop
+          pair << value
           break
         end
       end
     end
+    pair
   end
 
   def lookup(key)
