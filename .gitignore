@@ -1,4 +1,3 @@
-#ignore zipped files sent by email
+#ignore script file used to create multiple directories
 
-w*/harsh_kumar_*
-w*/harsh_kumar_*.zip
+make_week_directories.sh
