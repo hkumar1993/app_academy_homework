@@ -18,7 +18,6 @@ class Map
         end
       end
     end
-    pair
   end
 
   def lookup(key)
