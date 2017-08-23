@@ -9,13 +9,19 @@ body {
 }
 
 .header {
-
+  background-color: red;
+  border-bottom: 1px solid #ccc;
 }
 
 .header a {
-
+  display: block;
+  padding: 10px 20px;
 }
 
 .header-nav {
-
+  width: 900px;
+  margin: auto;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  color: white;
 }
