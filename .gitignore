@@ -1,3 +1,4 @@
 #ignore script file used to create multiple directories
 
 make_week_directories.sh
+W7/D1/node_modules/
