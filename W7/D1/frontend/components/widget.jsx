@@ -12,6 +12,7 @@ class Widget extends React.Component {
     this.props.store.subscribe(this.forceUpdate);
     this.currencies = ["USD", "EUR", "CAD", "JPY", "GBP", "CNY"];
     this.selectCurrency = selectCurrency.bind(this);
+    window.selectCurrency = selectCurrency;
   }
 
   fetchRates(currency) {
@@ -56,6 +57,7 @@ class Widget extends React.Component {
 
     return (
       <div>
+        <h1>Redux is working</h1>
         <h1>Currency Exchange Rates</h1>
         <h3>Base Currency: {baseCurrency}</h3>
 
