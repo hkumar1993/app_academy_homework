@@ -2,3 +2,5 @@
 
 make_week_directories.sh
 W7/D1/node_modules/
+W7/D1/bundle.js
+W7/D1/bundle.js.map
