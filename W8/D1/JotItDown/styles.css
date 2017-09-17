@@ -10,6 +10,7 @@ nav {
   height: 50px;
   justify-content: space-between;
   align-items: center;
+  color: white;
 }
 
 nav img{
@@ -35,6 +36,7 @@ nav h2{
 
 
 .session-btn{
+  background: none;
   margin: 0 10px;
   padding: 10px;
   color: white;
@@ -68,6 +70,27 @@ nav h2{
 
 }
 
+.Lists{
+  display: flex;
+  padding: 20px 20px;
+  width: 100%;
+  justify-content: space-around;
+  background-color: #39874d;
+}
+
+.List{
+  width: 500px;
+  padding: 20px 20px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 5px;
+  box-shadow: 5px 5px 2px black;
+  margin: 20px;
+  background-color: rgb(255, 237, 145);
+}
+
+.List li{
+  margin: 5px 0;
+}
 
 footer{
   color: white;
@@ -80,10 +103,13 @@ footer{
   padding: 0 100px;
 }
 
-footer ul{
+ul{
   padding: 0;
-  margin: 0;
   list-style: none;
+}
+
+footer ul{
+  margin: 0;
   display: flex;
 }
 
@@ -91,4 +117,27 @@ footer a{
   margin: 0 20px;
   color: white;
   text-decoration: none;
+}
+
+input[type=text]{
+  border-radius: 20px;
+  border-style: solid;
+  border: 1px solid rgba(0,0,0,0.3);
+}
+
+
+header{
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #73a781;
+  align-items: center;
+}
+
+header form{
+  align-self: center;
+}
+
+header form input{
+  margin: 5px 0;
 }
